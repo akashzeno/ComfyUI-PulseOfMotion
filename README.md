@@ -2,7 +2,7 @@
 
 ComfyUI nodes for predicting **Physical FPS (PhyFPS)** from video using the **Visual Chronometer** model.
 
-Based on the paper [**"The Pulse of Motion: Measuring Physical Frame Rate from Visual Dynamics"**](https://arxiv.org/abs/2505.15990) by the [TACO Group](https://github.com/taco-group/Pulse-of-Motion).
+Based on the paper [**"The Pulse of Motion: Measuring Physical Frame Rate from Visual Dynamics"**](https://arxiv.org/abs/2603.14375) by the [TACO Group](https://github.com/taco-group/Pulse-of-Motion).
 
 PhyFPS measures the true temporal resolution of a video from its visual motion dynamics — independent of the container frame rate. This is useful for detecting AI-generated videos, evaluating video quality, and understanding temporal characteristics.
 
@@ -60,7 +60,7 @@ This implementation uses **PyTorch SDPA** (`scaled_dot_product_attention`) for t
 
 ## Credits
 
-- **Paper**: [The Pulse of Motion: Measuring Physical Frame Rate from Visual Dynamics](https://arxiv.org/abs/2505.15990)
+- **Paper**: [The Pulse of Motion: Measuring Physical Frame Rate from Visual Dynamics](https://arxiv.org/abs/2603.14375)
 - **Original Code**: [taco-group/Pulse-of-Motion](https://github.com/taco-group/Pulse-of-Motion)
 - **Model Weights**: [xiangbog/Visual_Chronometer](https://huggingface.co/xiangbog/Visual_Chronometer)
 
