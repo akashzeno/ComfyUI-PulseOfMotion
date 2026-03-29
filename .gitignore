@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+.env

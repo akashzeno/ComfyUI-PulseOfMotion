@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-pulse-of-motion"
+description = "ComfyUI nodes for predicting Physical FPS (PhyFPS) from video using the Visual Chronometer model from the Pulse of Motion paper."
+version = "1.0.0"
+license = "Apache-2.0"
+dependencies = ["einops", "huggingface_hub"]
+
+[project.urls]
+Repository = "https://github.com/akashzeno/ComfyUI-PulseOfMotion"
+
+[tool.comfy]
+PublisherId = "akashzeno"
+DisplayName = "Pulse of Motion"
+Icon = ""
