@@ -52,7 +52,7 @@ The checkpoint (`vc_common_10_60fps.ckpt`) is automatically downloaded from [Hug
 
 ## Example Workflow
 
-![workflow](example_workflows/workflow.png)
+Download the [example workflow JSON](example_workflows/workflow.json) and drag it into ComfyUI to get started.
 
 ## Optimizations
 
